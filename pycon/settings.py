@@ -213,7 +213,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'conference.context_processors.current_url',
     'conference.context_processors.stuff',
     "sekizai.context_processors.sekizai",
-    "cms.context_processors.cms_settings",
+    ## "cms.context_processors.cms_settings",
     "django.core.context_processors.static",
 
 
@@ -235,10 +235,10 @@ MIDDLEWARE_CLASSES = (
     #'django.contrib.redirects.middleware.RedirectFallbackMiddleware',
     'assopy.middleware.DebugInfo',
     'pycon.middleware.RisingResponse',
-    'cms.middleware.user.CurrentUserMiddleware',
-    'cms.middleware.page.CurrentPageMiddleware',
-    'cms.middleware.toolbar.ToolbarMiddleware',
-    'cms.middleware.language.LanguageCookieMiddleware',
+    ## 'cms.middleware.user.CurrentUserMiddleware',
+    ## 'cms.middleware.page.CurrentPageMiddleware',
+    ## 'cms.middleware.toolbar.ToolbarMiddleware',
+    ## 'cms.middleware.language.LanguageCookieMiddleware',
 )
 
 ROOT_URLCONF = 'pycon.urls'
@@ -266,7 +266,7 @@ INSTALLED_APPS = (
 
     'social.apps.django_app.default',
 
-    'djangocms_admin_style',
+    ## 'djangocms_admin_style',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -278,14 +278,14 @@ INSTALLED_APPS = (
     'django.contrib.redirects',
     'django.contrib.comments',
 
-    'djangocms_text_ckeditor',
-    'cmsplugin_filer_file',
-    'cmsplugin_filer_folder',
-    'cmsplugin_filer_link',
-    'cmsplugin_filer_image',
-    'cmsplugin_filer_teaser',
-    'cmsplugin_filer_video',
-    'djangocms_grid',
+    ## 'djangocms_text_ckeditor',
+    ## 'cmsplugin_filer_file',
+    ## 'cmsplugin_filer_folder',
+    ## 'cmsplugin_filer_link',
+    ## 'cmsplugin_filer_image',
+    ## 'cmsplugin_filer_teaser',
+    ## 'cmsplugin_filer_video',
+    ## 'djangocms_grid',
 
     'cms',
     'menus',
